@@ -1,26 +1,26 @@
 
-
-# Double Pendulum Simulation
+# ⚖️ Double Pendulum Simulation
 
 This project simulates the dynamics of a double pendulum system. The simulation models the displacement, velocity, and acceleration of each pendulum rod over time. It also visualizes the forces acting on the system, the free-body diagram, and the phase space. An animation of the double pendulum's motion is also provided.
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Algorithm Explanation](#algorithm-explanation)
-- [Parameters and Variables](#parameters-and-variables)
-- [Example Output](#example-output)
-- [Generated Outputs](#generated-outputs)
-- [Contributing](#contributing)
-- [License](#license)
+- [📖 Project Overview](#project-overview)
+- [⚙️ Installation](#installation)
+- [📚 Usage](#usage)
+- [🔬 Algorithm Explanation](#algorithm-explanation)
+- [🔢 Parameters and Variables](#parameters-and-variables)
+- [🖼️ Example Output](#example-output)
+- [📊 Generated Outputs](#generated-outputs)
+- [🤝 Contributing](#contributing)
+- [📄 License](#license)
+- [💖 Donation](#donation)
 
-## Project Overview
+## 📖 Project Overview
 
 The goal of this project is to model and simulate the performance of a double pendulum system. The simulation uses Euler's method to integrate the equations of motion and visualizes the results.
 
-## Installation
+## ⚙️ Installation
 
 To run this project, you need Python 3.x along with the following libraries:
 - `numpy`
@@ -42,7 +42,7 @@ git clone https://github.com/esmail-sarhadi/Double-Pendulum-Simulation.git
 cd double-pendulum-simulation
 ```
 
-## Usage
+## 📚 Usage
 
 Run the script directly in a Python environment to perform the simulation and plot the results:
 
@@ -52,7 +52,7 @@ python double_pendulum_simulation.py
 
 The script will simulate the double pendulum dynamics and produce several plots and an animation.
 
-## Algorithm Explanation
+## 🔬 Algorithm Explanation
 
 The simulation solves a set of differential equations that model the double pendulum dynamics using Euler's method. The main equations determine the angular acceleration of each rod based on the current angles and angular velocities.
 
@@ -69,7 +69,7 @@ where:
 - \(g\) is the gravitational acceleration.
 - \(L1\) and \(L2\) are the lengths of the rods.
 
-## Parameters and Variables
+## 🔢 Parameters and Variables
 
 - **m1**: Mass of the first object (kg)
 - **m2**: Mass of the second object (kg)
@@ -83,7 +83,7 @@ where:
 - **t_max**: Total simulation time (s)
 - **dt**: Time step (s)
 
-## Example Output
+## 🖼️ Example Output
 
 The script produces plots showing the following variables over time for the double pendulum system:
 - Displacement
@@ -95,7 +95,7 @@ The script produces plots showing the following variables over time for the doub
 
 Additionally, it generates an animation of the double pendulum's motion and a free-body diagram of the system.
 
-## Generated Outputs
+## 📊 Generated Outputs
 
 ### Displacement, Velocity, and Acceleration
 ![Displacement, Velocity, and Acceleration](displacement_velocity_acceleration.png)
@@ -112,14 +112,18 @@ Additionally, it generates an animation of the double pendulum's motion and a fr
 ### Animation
 [Animation (MP4)](animation.mp4)
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for improvements or features, please fork the repository and create a pull request. 
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## 💖 Donation
+If you found this project helpful, consider making a donation:
+
 <a href="https://nowpayments.io/donation?api_key=REWCYVC-A1AMFK3-QNRS663-PKJSBD2&source=lk_donation&medium=referral" target="_blank">
      <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button by NOWPayments">
-    </a>
+</a>
+
