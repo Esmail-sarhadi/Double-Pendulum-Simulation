@@ -37,13 +37,13 @@ theta1_array[0] = theta1
 theta2_array[0] = theta2
 omega1_array[0] = omega1
 omega2_array[0] = omega2
-
+    
 for i in range(1, len(t)):
     alpha1, alpha2 = equations_of_motion(theta1_array[i - 1], theta2_array[i - 1], omega1_array[i - 1], omega2_array[i - 1], t[i - 1])
     omega1_array[i] = omega1_array[i - 1] + alpha1 * dt
     omega2_array[i] = omega2_array[i - 1] + alpha2 * dt
     theta1_array[i] = theta1_array[i - 1] + omega1_array[i - 1] * dt
-    theta2_array[i] = theta2_array[i - 1] + omega2_array[i - 1] * dt
+    theta2_array[i] = theta2_array[i - 1] + omega2_array[i - 1] * dt             
 
 # Plot displacement, velocity, and acceleration
 sns.set(style="whitegrid")
