@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from matplotlib.animation import FuncAnimation
 import seaborn as sns
-
+ 
 # Define the system parameters (example values)
 m1 = 1.0  # mass of the first object (kg)
 m2 = 2.0  # mass of the second object (kg)
