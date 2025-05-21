@@ -5,7 +5,7 @@ import seaborn as sns
  
 # Define the system parameters (example values)
 m1 = 1.0  # mass of the first object (kg)
-m2 = 2.0  # mass of the second object (kg)
+m2 = 2.0  # mass of the second object (kg) 
 L1 = 2.0  # length of the first rod (m)
 L2 = 1.0  # length of the second rod (m)
 g = 9.81  # gravitational acceleration (m/s^2)
